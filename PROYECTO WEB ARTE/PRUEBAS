@@ -1,0 +1,14 @@
+
+#leticia-banner{
+       background-image: url(../imgs/logo\ 11\ B.png);
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+   }
+  
+   #menu-izq{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+   }

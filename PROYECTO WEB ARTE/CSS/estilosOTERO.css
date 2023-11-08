@@ -1,0 +1,137 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;500&family=Oswald:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color: #6ED9C6;
+}
+
+/* Estilo básico para el menú de navegación  padding: 15px 20px; */
+.navbar {
+        margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: rgb(8, 0, 0);
+    height: 104px;
+    width: 1440px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+        
+     }
+     
+       
+  /* Estilo para la parte izquierda del menú */
+  .navbar-left ul {
+    list-style: none;
+    padding: 40px;
+    margin: 80px;   
+      transition: 700ms;
+  }
+  header nav a:hover{ color: #1B3F38;
+    font-size: 26px;
+  }
+
+  .navbar-left li {
+    display: inline;
+    margin-right: 80px;
+  }
+  
+  .navbar-left a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    
+  }
+
+  /* Estilo básico para el menú de navegación (sin cambios) */
+
+
+
+ /* Estilo para el menú desplegable */
+ .submenu {
+    display: flexbox;
+    position: absolute;
+    background-color: #C5F0E8;
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  .submenu li {
+    padding: 8px;
+  }
+  
+  .submenu a {
+    color:black;
+    text-decoration: none;
+    display: block;
+  }
+
+
+  
+  /* Estilo para la parte central del menú (el logo) */
+  .navbar-center {
+    flex-grow: 1; /* Hace que ocupe el espacio disponible */
+    text-align: center;
+  }
+  
+  .navbar-center img {
+    max-width: 100px; /* Establece un ancho máximo para el logo */
+  }
+  
+  /* Estilo para la parte derecha del menú */
+  .navbar-right ul {
+    list-style: none;
+    padding: 40px;
+    margin: 80px;
+  }
+  
+  .navbar-right li {
+    display: inline;
+    margin-left: 80px;
+  }
+  
+  .navbar-right a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+  }
+  
+  main{
+    width: 1440px;
+    height: fit-content;
+     margin: auto;
+ }
+ #contenedor{
+     height: 738px;
+     background-image: url(../imgs/fondo\ main\ 1.png);
+     display: flex;
+     justify-content: center;
+     align-items: center;   
+ }
+ #contenedor h1{
+     font-size: 35px;
+     color:white;
+ }
+#contenedordig img{ vertical-align: middle;}
+#contenedordig {
+    image-resolution: 280px;
+    background-color: #8BE1D1;
+    margin-top: 20px;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+#contenedordig2{
+    image-resolution: 280px;
+    background-color: #8BE1D1;
+    margin-top: 0px;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}

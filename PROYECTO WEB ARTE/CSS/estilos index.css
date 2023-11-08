@@ -1,0 +1,30 @@
+
+body{
+    font-family:sans-serif;
+    background-color: #0DC0A0;
+}
+
+
+
+header{
+    background-color: white ;
+    height: 140px;
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ header nav a { 
+    font-size: 20px;
+    margin: 8px;
+    text-decoration: none;
+    color: rgb(6, 6, 36);
+    transition: 500ms;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+      }
+
+   
